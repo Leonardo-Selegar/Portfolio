@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#pag1 {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    color: #FAFCED;
+    background-image: url('img/backgroundImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#pag1 div {
+    margin: auto 2rem;
+}
+
+.ola {
+    color: #292735;
+}
+
+.nome {
+    font-size: 100px;
+    color: #FAFCED;
+}
+
+.contornoLetra {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+#pag2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FAFCED;
+    color: #292735;
+}
+
+#pag3 {
+    width: 100vw;
+    height: 170vh;
+    color: #FAFCED;
+    background-color: #404685;
+}
+
+.project {
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testoProject {
+    width: 61%;
+}
+
+.imagem {
+    border-left: 10px solid gray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    opacity: 60%;
+}
+
+.imagem:hover {
+    border-left: 10px solid #FAFCED;
+    opacity: 100%;
+}
+
+#tituloPag {
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+#pag1 a {
+    text-decoration: none;
+    color: #292735;
+}
+
+#pag3 a {
+    text-decoration: none;
+    color: #FAFCED;
+}
+
+#pag3 a:hover {
+    color: #FAFCED;
+}
+
+.footer {
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    margin-top: 9px;
+    justify-content: center;
+    align-items: center;
+    color: #2D2D42;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2D2D42;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #FAFCED;
+    color: #292735;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #A39CC8;
+}
+
+.btn-danger {
+    background-color: #A39CC8;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #FFD2CF;
+    color: #292735;
+}
+
+.skillsList {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.skillsList li {
+    list-style-type: none;
+    border: 1px solid #292735;
+    padding: 1rem;
+    width:200px;
+    height:300px;
+    justify-content: center;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #404685;
+    color: #FAFCED;
+}
+
+.skillsList li img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 80px auto;
+}
+
+.skillsList li:hover {
+    background-color: rgb(85, 94, 178);
+}

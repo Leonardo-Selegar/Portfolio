@@ -40,33 +40,39 @@ body {
 }
 
 #pag2 {
-    width: 100vw;
-    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    min-width: 100vw;
+    min-height: 100vh;
     background-color: #FAFCED;
     color: #292735;
 }
 
 #pag3 {
     width: 100vw;
-    height: 170vh;
+    min-height: 100vh;
     color: #FAFCED;
     background-color: #404685;
 }
 
-.project {
-    width: 40%;
-    margin-top: 50px;
+.projetos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-top: 1rem;
     margin-bottom: 50px;
 }
 
-.testoProject {
-    width: 61%;
+.project {
+    width: 442px;
+    
 }
-
 .imagem {
     border-left: 10px solid gray;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    width: 442px;
     opacity: 60%;
 }
 
@@ -94,14 +100,13 @@ body {
     color: #FAFCED;
 }
 
-.footer {
+.rodape {
     display: flex;
     position: relative;
-    bottom: 0px;
-    margin-top: 9px;
+    bottom: 0;
     justify-content: center;
-    align-items: center;
     color: #2D2D42;
+    margin-top: -40px;
 }
 
 ::-webkit-scrollbar {
@@ -126,6 +131,7 @@ body {
 .btn-danger {
     background-color: #A39CC8;
     border: none;
+    margin-bottom: 30px;
 }
 
 .btn-danger:hover {
@@ -148,6 +154,7 @@ body {
     height:300px;
     justify-content: center;
     margin-right: 20px;
+    margin-top: 10px;
     text-align: center;
     border-radius: 5px;
     background-color: #404685;

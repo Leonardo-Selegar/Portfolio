@@ -74,6 +74,7 @@ body {
     border-bottom-left-radius: 5px;
     width: 442px;
     opacity: 60%;
+    box-shadow: 2px 2px 2px rgba(143, 143, 143, 0.808);
 }
 
 .imagem:hover {
@@ -122,6 +123,8 @@ body {
     background-color: #FAFCED;
     color: #292735;
     border: none;
+    margin-right: 10px;
+    box-shadow: 2px 2px 2px rgba(143, 143, 143, 0.808);
 }
 
 .btn-primary:hover {
@@ -132,6 +135,8 @@ body {
     background-color: #A39CC8;
     border: none;
     margin-bottom: 30px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 2px rgba(143, 143, 143, 0.808);
 }
 
 .btn-danger:hover {
@@ -159,6 +164,7 @@ body {
     border-radius: 5px;
     background-color: #404685;
     color: #FAFCED;
+    box-shadow: 2px 2px 2px rgba(143, 143, 143, 0.808);
 }
 
 .skillsList li img {
